@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'FiraGO-Medium';
+}
+
+@font-face {
+    font-family: 'FiraGO-Medium';
+    src: url(FiraGO-Medium.ttf)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(236, 147, 147), rgb(240, 240, 121), rgb(131, 236, 131));
+}
+
+.tdeven:hover {
+    background-color: green;
+    color: white;
+    font-size: 24px;
+}
+
+.tdodd:hover {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+}
+
+tr {
+    border: 2px solid blue;
+}
+
+th,
+td {
+    border: 2px solid blue;
+    padding: 8px;
+    text-align: center;
+    background-color: aliceblue;
+}
